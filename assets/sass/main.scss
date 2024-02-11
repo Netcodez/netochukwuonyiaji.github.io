@@ -260,14 +260,14 @@
 /* Row */
 
 	.row {
-		@include html-grid((40px, 40px));
+		@include html-grid((100px, 100px));
 
 		@include breakpoint('wide') {
-			@include html-grid((40px, 40px), 'wide');
+			@include html-grid((100px, 100px), 'wide');
 		}
 
 		@include breakpoint('normal') {
-			@include html-grid((40px, 40px), 'normal');
+			@include html-grid((100px, 100px), 'normal');
 		}
 
 		@include breakpoint('narrow') {
